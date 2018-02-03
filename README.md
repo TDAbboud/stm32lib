@@ -16,13 +16,6 @@ files before committing them here:
 - tabs expanded to 4 spaces
 - non-ASCII chars converted to their ASCII equivalent
 
-```sh
-function clean_code() {
-    cat $1 | awk "{sub(/[\t ]*\r/,\"\")}1" | expand -t 4 | tr \\200\\221\\222\\223\\224\\226\\231\\265\\327\\342 \'\'\'\"\"-\'ux\' > tmp$$
-    mv tmp$$ $1
-}
-
-```
 Directories from the original sources are mapped into this repository according
 to the following:
 ``

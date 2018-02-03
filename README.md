@@ -4,6 +4,9 @@
 
 This repository contains a copy of STMicroelectronics STM32Cube Firmware.
 
+## Current Versions
+STM32F4xx -> v1.19.0
+
 ## modifications
 
 For all .c and .h files the following processing has been done to the original
